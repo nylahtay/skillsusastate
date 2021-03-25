@@ -8,12 +8,20 @@
 .bg-dark p {
     color: white;
 }
+H1,H2,H3{
+    color: rgb(36, 37, 133);
+}
+.btn-success{
+    background-color: rgb(61, 136, 27);
+}
 
 
-
+.btn-success:hover{
+    background-color: rgb(19, 82, 8);
+}
 
 
 
 #imgFrount{
-    width: 75%;
+    width: 95%;
 }
