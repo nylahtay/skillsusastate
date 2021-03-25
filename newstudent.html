@@ -43,15 +43,170 @@
         <article>
             <div class="container p-3">
                 <h1>New Students</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>somehting goes here</p>
+
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                      <label for="validationCustom01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationCustom01" placeholder="First Name" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      <div class="invalid-feedback">
+                        Please fill out your first name.
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustom02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Last Name" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      <div class="invalid-feedback">
+                        Please fill out your last name.
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustomEmail" class="form-label">Email</label>
+                      <div class="input-group has-validation">
+                        <input type="text" class="form-control" id="validationCustomEmail" placeholder="City" aria-describedby="inputGroupPrepend" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                        <div class="invalid-feedback">
+                          Please fill out your email.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationCustom03" required>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom04" class="form-label">State</label>
+                      <select class="form-select" id="validationCustom04" >
+                        <option>Tennessee</option>
+                      </select>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      <div class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationCustom05" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      <div class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="valid-feedback">
+                            Thank you for agreeing to the terms and conditions.
+                          </div>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                  </form>
             </div>
         </article>
 
-        <section class="bg-dark">
+        <section class="bg-primary">
             <div class="container p-3">
-                <h2>info</h2>
-                <p></p>
-                <p>3.) Submit your ACT or SAT (It should be no older than 3 years from the first day of the beging sumster ).</p>
+                <h2>How to be a successful eLearner</h2>
+                <div class="accordion" id="accordionSuccessful">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="successheadingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#successcollapseOne" aria-expanded="true" aria-controls="successcollapseOne">
+                            Does this describe you?
+                        </button>
+                        </h2>
+                        <div id="successcollapseOne" class="accordion-collapse collapse show" aria-labelledby="successheadingOne" data-bs-parent="#accordionSuccessful">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Self-motivated</li>
+                                    <li>Self-disciplined</li>
+                                    <li>Schedule-oriented</li>
+                                    <li>Proficient in reading</li>
+                                    <li>Communicates well in writing</li>
+                                    <li>Has basic computer skills</li>
+                                    <li>Has familiarity with email, web browsers and word processing software</li>
+                                
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="successheadingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is expected of you?
+                        </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="successheadingTwo" data-bs-parent="#accordionSuccessful">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Participation in all aspects of the course.</li>
+                                    <li>Communication with your professor and other students in your class.</li>
+                                    <li>Learn how to navigate in the Learning Management System (LMS).</li>
+                                    <li>Read course announcements.</li>
+                                    <li>Use the assigned course management system email address rather than a personal email address for communication with your professor and classmates.</li>
+                                    <li>Resolve technical problems immediately.</li>                                
+                                    <li>Observe course "netiquette" at all times when sending email and posting comments to the discussion board. Refrain from using inappropriate and/or offensive language, comments or actions.</li>
+                                    <li>High standards of honesty and integrity. Academic dishonesty is prohibited.</li>
+                                </ul>                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="successheadingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#successcollapseThree" aria-expanded="false" aria-controls="successcollapseThree">
+                            What is needed to access an online course?
+                        </button>
+                        </h2>
+                        <div id="successcollapseThree" class="accordion-collapse collapse" aria-labelledby="successheadingThree" data-bs-parent="#accordionSuccessful">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Reliable internet access.</li>
+                                    <li>A computer system that meets the basic minimum requirements for using the Learning Management System (LMS). You can determine if your computer meets these requirements by <a href="https://community.desire2learn.com/d2l/systemCheck">performing a system check</a>. </li>
+                                    <li>Course specific software and accessories (microphone, webcam, etc.) as noted by the professor in the course syllabus.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="successheadingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#successcollapseFour" aria-expanded="false" aria-controls="successcollapseFour">
+                            What can you do to prepare for online success?
+                        </button>
+                        </h2>
+                        <div id="successcollapseFour" class="accordion-collapse collapse" aria-labelledby="successheadingFour" data-bs-parent="#accordionSuccessful">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Establish a location in your home or workplace where you can study without distractions.
+                                    </li>
+                                    <li>Ensure that you have good lighting and adequate space.
+                                    </li>
+                                    <li>Plan your study time. (A good rule of thumb is to reserve a two-hour block of time several days within the week for study time). 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -75,17 +230,16 @@ Submit an official copy (sealed and unopened) of your high school transcript or 
 Take the COMPASS test (for academic placement purposes) or the ACT exam. ACT scores must be less than three years old.
 Some institutions may require you to submit a personal statement of academic and career goals.
 *NOTES: 
-<strong></strong>
                         </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#successcollapseTwo" aria-expanded="false" aria-controls="successcollapseTwo">
                             Transfer Students
                         </button>
                         </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div id="successcollapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
@@ -103,7 +257,8 @@ Some institutions may require you to submit a personal statement of academic and
                         </div>
                         </div>
                     </div>
-                    </div>            </div>
+                    </div>
+                </div>
         </section>
 
 
@@ -128,7 +283,31 @@ Some institutions may require you to submit a personal statement of academic and
                 </div>
             </div>
         </footer>
+
+
         <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+            })
+        })()
+        </script>
 
     </body>
 </html>

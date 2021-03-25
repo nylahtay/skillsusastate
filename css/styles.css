@@ -4,6 +4,10 @@
     background-position: center center;
 }
 
+.bg-primary {
+    background-color: blue;
+}
+
 .bg-dark h1, .bg-dark h2, .bg-dark h3,
 .bg-dark p {
     color: white;
