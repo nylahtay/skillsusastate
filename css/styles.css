@@ -24,7 +24,9 @@ H1,H2,H3{
     background-color: rgb(19, 82, 8);
 }
 
-
+a:hover{
+    color:rgb(61, 136, 27);
+}
 
 #imgFrount{
     width: 95%;
